@@ -34,10 +34,11 @@ Participants will work in three teams, which will be formed on Tuesday. On Wedne
   *	2:00-6:30: Rotation 3 - Afternoon
 
 **Saturday, 22nd September**
-  *	8:30-9:30: Deploying a portable nanopore sequencing system, Josh Quick (Seminar Room)
-  *	9:30-10:45: Field trip
-  *	10:45-5:30: Sequencing at the Singapore Botanic Gardens
-  *	5:30: Closing party (venue tbc)
+  *	8:30-10:30: Deploying a portable nanopore sequencing system, Josh Quick (Seminar Room) and wrap-up of PoreCamp instructional aspects
+  *	10:30-11:00: Travel to the Singapore Botanic Gardens
+  *	11:00-5:00: Sequencing at the Singapore Botanic Gardens
+  * 5:00-5:30pm: Travel back to GIS
+  *	5:30: Closing party (Breakout Area)
 
 **Key to locations:**
 All activities will take place within the Genome Institute of Singapore (GIS), Genome Building, Biopolis, Singapore 138672, except for the field trip and closing party on Saturday.
