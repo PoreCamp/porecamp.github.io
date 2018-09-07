@@ -1,4 +1,4 @@
-### tested with ansible 2.3.1 and ubuntu 16.04 cloud image on CLIMB
+### tested with ansible 2.6.3 and ubuntu 16.04 cloud image on CLIMB
 
 ---
 
@@ -152,10 +152,10 @@
       filename: nanoporetech
 
   - name: install python3-ont-fast5-api
-    apt: name=python3-ont-fast5-api state=installed allow_unauthenticated=yes
+    apt: name=python3-ont-fast5-api state=present allow_unauthenticated=yes
 
   - name: install ont-albacore wheel
-    pip: name=https://mirror.oxfordnanoportal.com/software/analysis/ont_albacore-2.2.7-cp35-cp35m-manylinux1_x86_64.whl executable=pip3
+    pip: name=https://mirror.oxfordnanoportal.com/software/analysis/ont_albacore-2.3.3-cp35-cp35m-manylinux1_x86_64.whl executable=pip3
 
   - name: grab centrifuge-kreport
     get_url: url=https://raw.githubusercontent.com/infphilo/centrifuge/master/centrifuge-kreport dest=/usr/local/bin/centrifuge-kreport mode=0755 
@@ -210,11 +210,11 @@
       mode: 0755
       force: yes
 
-#  - name: create centrifuge db dir
-#    file: name=/home/data/references/centrifuge/ state=directory owner=root group=root mode=0755
+  - name: create centrifuge db dir
+    file: name=/home/data/references/centrifuge/ state=directory owner=root group=root mode=0755
 
-#  - name: grab centrifuge db
-#    unarchive: src=ftp://ftp.ccb.jhu.edu/pub/infphilo/centrifuge/data/p_compressed+h+v.tar.gz dest=/home/data/references/centrifuge/ remote_src=yes
+  - name: grab centrifuge db
+    unarchive: src=ftp://ftp.ccb.jhu.edu/pub/infphilo/centrifuge/data/p_compressed+h+v.tar.gz dest=/home/data/references/centrifuge/ remote_src=yes
 
   - name: install pip stuff
     pip: name="{{item}}"
@@ -231,6 +231,9 @@
 
   - name: git poretools
     git: repo=https://github.com/arq5x/poretools dest=/tmp/poretools
+
+  - name: install older version of matplotlib
+    pip: name=matplotlib state=present version=2.2.3
 
   - name: install poretools
     command: python setup.py install
@@ -259,7 +262,7 @@
   - name: add prokka to PATH
     copy:
       content: 'PATH=$PATH:/usr/local/prokka/bin:/usr/local/barrnap/bin'
-      dest: /etc/profile.d/samtools.sh
+      dest: /etc/profile.d/prokka.sh
       mode: 0755
       force: yes
 
