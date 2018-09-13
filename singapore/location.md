@@ -3,7 +3,7 @@
 # Location, Accommodation, and Dining
 
 ## Location
-Sing-a-Pore Camp 2018 is taking place at the Genome Institute of Singapore (GIS), Genome Building, Biopolis, Singapore 138672 (<a href="http://www.streetdirectory.com/sg/genome/60-biopolis-street-138672/2989_10373.html" target="_blank">map</a>). The building is unlocked and accessible during PoreCamp hours.
+Singapore Nanopore Camp 2018 is taking place at the Genome Institute of Singapore (GIS), Genome Building, Biopolis, Singapore 138672 (<a href="http://www.streetdirectory.com/sg/genome/60-biopolis-street-138672/2989_10373.html" target="_blank">map</a>). The building is unlocked and accessible during PoreCamp hours.
 
 The Genome Building is a short 10-minute walk from the recommended accommodation (Park Avenue Rochester). For directions to Biopolis, please see <a href="https://www.a-star.edu.sg/Portals/79/Directions%20to%20Biopolis_for%20drivers.pdf" target="_blank">https://www.a-star.edu.sg/Portals/79/Directions%20to%20Biopolis_for%20drivers.pdf</a>
 
