@@ -19,16 +19,14 @@ Participants will work in three teams, which will be formed on Tuesday. On Wedne
 **Wednesday, 19th September**
   *	8:30-11:30: Rotation 1 - Morning
   *	11:30-12:15: Lunch (Breakout Area)
-  *	12:15-1:15: Lunch-time talk Dr Wan Yue (Creation Theatrette @ Matrix Building, Level 4)
-  *	1:15-2:00: Understanding Event Calling and MinION Data, Matt Loose (Seminar Room)
-  *	2:00-6:30: Rotation 1 - Afternoon
+  *	12:15-1:15: Lunch-time talk Dr Wan Yue (Creation Theatrette @ Matrix Building, Level 4)  
+  *	1:15-6:30: Rotation 1 - Afternoon
 
 **Thursday, 20th September**
   *	8:30-11:30: Rotation 2 - Morning
   *	11:30-12:15: Lunch (Breakout Area)
-  *	12:15-1:15: Lunch-time talk Dr Denis Bertrand (Creation Theatrette @ Matrix Building, Level 4)
-  *	1:15-2:00: Running the MinION, John Tyson (Seminar Room)
-  *	2:00-6:30: Rotation 2 - Afternoon
+  *	12:15-1:15: Lunch-time talk Dr Denis Bertrand (Creation Theatrette @ Matrix Building, Level 4)  
+  *	1:15-6:30: Rotation 2 - Afternoon
 
 **Friday, 21st September** 
   *	8:30-11:30: Rotation 3 - Morning
